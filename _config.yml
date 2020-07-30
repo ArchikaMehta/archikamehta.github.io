@@ -22,9 +22,10 @@ subtitle                 : # site tagline that appears below site title in masth
 name                     : "Archika Mehta"
 description              : "My career transformation journey from the world of finance to the world of IT."
 url                      : "https://archikamehta.github.io/"
+github                   : [metadata]
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "archikamehta/archikamehta.github.io" # GitHub username/repo-name e.g. 
-teaser                   : /assets/images/teaser1.png
+teaser                   : "/assets/images/teaser1.png"
 # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -94,11 +95,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  name             : "Archika Mehta"
+  avatar           : "/assets/images/archika.jpg"# path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "Ex-Banker > Finance Officer > QA"
+  location         : "New Zealand"
+  email            : "archika.mehta19@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -220,7 +221,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
-  - jekyll-remote-theme
+#  - jekyll-remote-theme
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -228,8 +229,9 @@ whitelist:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
-  - jekyll-remote-theme
   - jekyll-include-cache
+ # - jekyll-remote-theme
+ 
 
 
 # Archives
@@ -248,17 +250,17 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
-# https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
+#  https://github.com/jekyll/jekyll-archives
+  jekyll-archives:
+    enabled:
+      - categories
+      - tags
+    layouts:
+      category: archive-taxonomy
+      tag: archive-taxonomy
+    permalinks:
+      category: /categories/:name/
+      tag: /tags/:name/
 
 
 # HTML Compression
@@ -282,3 +284,4 @@ defaults:
       comments: # true
       share: true
       related: true
+
