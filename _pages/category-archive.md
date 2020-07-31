@@ -1,6 +1,6 @@
 ---
 title: "All posts by year"
-permalink: /archive/
+permalink: /blog-archive/
 layout: posts
 author_profile: true
 ---
