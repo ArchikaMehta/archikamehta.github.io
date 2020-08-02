@@ -31,3 +31,5 @@ First of all the environment where the application is being hosted is created an
 Applications can be hosted either completely on-premises or on public cloud (like AWS and Azure). There can also be a hybrid model where some of the application components are hosted in a public cloud and some are hosted on-premises.
 
 ![hosting](/assets/images/SoftwareHosting.png)
+
+Source: https://www.techopedia.com/definition/26635/hosted-software; https://kopano.com/releases/how-to-host-your-software-finding-the-right-solution/
