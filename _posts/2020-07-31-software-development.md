@@ -1,11 +1,11 @@
 ---
 layout: single
 title: "How does a software get developed???" # title shown in home page
-excerpt: "ALet's first understand why do we need to develop a software, the answer is simple to performs a specific personal, educational..."
+excerpt: "Let's first understand why do we need to develop a software, the answer is simple to performs a specific personal, educational..."
 permalink: # global permalink is set in_config.yml
 tags:
-  - Software
-  - Software development
+  - software
+  - software development
 published: true
 comments: true
 author_profile: true
@@ -22,9 +22,6 @@ gallery:
     url: ''
     title: ''
 ---
-# Welcome
-
-**Hello everyone**,
 
 In this post I will be describing the Software Devlopment process.
 
