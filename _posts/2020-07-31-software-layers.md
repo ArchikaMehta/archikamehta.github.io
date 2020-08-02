@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Different layers in a Software" # title shown in home page
-excerpt: "Hosting in the world of IT means that a software is installed and can now be accessed entirely from a remote location..."
+excerpt: "The simplest form of layered architecture in the IT world is a three-tiered architecture. All layered software..."
 permalink: # global permalink is set in_config.yml
 tags:
   - software
