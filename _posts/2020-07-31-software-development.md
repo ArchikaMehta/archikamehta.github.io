@@ -4,10 +4,8 @@ title: "How does a software get developed???" # title shown in home page
 excerpt: "ALet's first understand why do we need to develop a software, the answer is simple to performs a specific personal, educational..."
 permalink: # global permalink is set in_config.yml
 tags:
-  - nuget
-  - powershell
-  - powershell gallery
-  - proxy
+  - Software
+  - Software development
 published: true
 comments: true
 author_profile: true
