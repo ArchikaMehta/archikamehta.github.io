@@ -32,4 +32,4 @@ Applications can be hosted either completely on-premises or on public cloud (lik
 
 ![hosting](/assets/images/SoftwareHosting.png)
 
-Source: https://www.techopedia.com/definition/26635/hosted-software; https://kopano.com/releases/how-to-host-your-software-finding-the-right-solution/
+Source: [techopedia](https://www.techopedia.com/definition/26635/hosted-software); [kopano](https://kopano.com/releases/how-to-host-your-software-finding-the-right-solution/)
