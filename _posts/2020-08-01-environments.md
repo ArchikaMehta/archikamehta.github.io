@@ -22,7 +22,7 @@ gallery:
     title: ''
 ---
 
-There are mainly 4 different environments in a software development life cycle. Each of the environments is used by a different set of users and helps in maintaining a different codebase of the application. So, the changes made in one environment does not impact users of other environments for example:- Development team creates programs and execute unit tests in development environment while test team uses SIT environment to validate that the application is defect-free and all of this has no impact to the actual users of the application using a production environment.
+There are mainly 4 different environments in a software development life cycle. Each of the environments is used by a different set of users and helps in maintaining a different codebase of the application. So, the changes made in one environment does not impact users of other environments for example:- Development team creates programs and execute unit tests in development environment while test team uses SIT environment to validate that the application is defect-free and all of this has no impact to the actual users of the application using a production environment whereas UAT environmentis for testing the software in user environment.
 
 1. Development
 2. SIT - System integration testing 

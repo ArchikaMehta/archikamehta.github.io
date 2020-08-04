@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "How would you go about testing a new functionality?" # title shown in home page
-excerpt: "There are mainly 4 different environments in a software development life cycle. Each of the environments..."
+excerpt: "For testing a new functionality as a QA the below steps should be followed:"
 permalink: # global permalink is set in_config.yml
 tags:
   - QA
@@ -23,9 +23,14 @@ gallery:
     title: ''
 ---
 
-There are mainly 4 different environments in a software development life cycle. Each of the environments is used by a different set of users and helps in maintaining a different codebase of the application. So, the changes made in one environment does not impact users of other environments for example:- Development team creates programs and execute unit tests in development environment while test team uses SIT environment to validate that the application is defect-free and all of this has no impact to the actual users of the application using a production environment.
+For testing a new functionality as a QA the below steps should be followed:
 
-1. Development
-2. SIT - System integration testing 
-3. UAT - User acceptance testing
-4. Production
+1.	Read the requirement document and understand all the user requirements related to that functionality
+2.	Create test conditions and test cases according to the assessed requirements
+3.	Prepare a Requirement Tracebality Matrix (RTM) to check prepared test cases have covered all the requirements
+4.	Get all the test conditions and cases peer reviewed
+5.	Get a Business Analyst (BA) walkthrough
+6.	Execute the test cases and report the bugs (if found any)
+7. Re-test the fixed bug 
+
+And when all the bugs are fixed and re-tested the software is ready to be tested in UAT environment and after that ready for deployment in production environment.
